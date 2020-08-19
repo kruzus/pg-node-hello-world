@@ -4,7 +4,7 @@ require("dotenv").config();
 const cors = require("cors");
 const app = express();
 const bodyParser = require("body-parser");
-const { response } = require("express");
+
 
 // use middleware
 app.use(cors());
