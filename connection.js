@@ -4,11 +4,11 @@ export const pool = new Pool({
     database: process.env.DB_DB,
     password: process.env.DB_PASS,
     port: process.env.DB_PORT || 5000,
-  });
-  pool.connect((err) => {
+})
+pool.connect((err) => {
     if (err) {
-      console.error("connection error", err.stack);
+        console.error('connection error', err.stack)
     } else {
-      console.log("connected");
+        console.log('connected')
     }
-  });
+})
