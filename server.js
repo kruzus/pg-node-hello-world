@@ -4,10 +4,7 @@ require("dotenv").config();
 const cors = require("cors");
 const app = express();
 const bodyParser = require("body-parser");
-<<<<<<< HEAD
-=======
 
->>>>>>> 5ab5651dcbbf356299cde8a66001edcda15b2cae
 
 // use middleware
 app.use(cors());
